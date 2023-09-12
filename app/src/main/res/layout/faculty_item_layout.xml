@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="@dimen/text_margin"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingBottom="10dp"
+            android:weightSum="2.5">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1.9"
+                 android:orientation="vertical"
+                 android:gravity="center_vertical"
+                 android:paddingBottom="20dp"
+                 >
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/teacherName"
+                     android:fontFamily="serif"
+                     android:textColor="@color/black"
+                     android:textSize="@dimen/title_size"
+                     android:text="Rahul sharma"
+                     />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/teacherPost"
+                     android:textColor="@color/black"
+                     android:fontFamily="serif"
+                     android:textSize="@dimen/title_size2"
+                     android:layout_marginTop="2dp"
+                     android:text="Assistant Professor"
+                     />
+
+                 <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/teacherEmail"
+                   android:textColor="@color/black"
+                   android:layout_marginTop="2dp"
+                   android:fontFamily="serif"
+                   android:textSize="@dimen/text_size0"
+                   android:text="reahul@gamil.com"
+                 />
+
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/teacherDepartment"
+                     android:autoSizeMaxTextSize="5dp"
+                     android:textColor="@color/black"
+                     android:textSize="@dimen/text_size2"
+                     android:textStyle="bold"
+                     android:fontFamily="serif"
+                     android:layout_marginTop="5dp"
+                     android:text="School fo science and technology"
+                     />
+             </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/teacherImage"
+                android:layout_width="68dp"
+                android:layout_height="120dp"
+                android:src="@drawable/user"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

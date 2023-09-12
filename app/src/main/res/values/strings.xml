@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HZU</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="about_college">It was in the year 1995 that the sponsoring body of the University Transnational Alternate Learning for Emancipation and Empowerment through Multimedia(TALEEM) was conceived by Shri Subhash Chandra, a visionary leader who has brought India on the world media scene. Since then all efforts were made to start a private university. The same came into existence in 2005 known as Himgiri ZEE University (Formerly Himgiri Nabh Vishwavidyalaya) located at Dehradun. Social Science, Health and Media research continue to be the main thrust of our research. A small band of committed professionals have been involved in research of a high quality and have earned a good name in the field of Social Science and Health Communication research.</string>
+    <string name="science_tech">School of Science and  AlOrganizations, Universities and Autonomous Bodies.</string>
+    <string name="about_us">Himgiri Zee University has been established to meet the growing demand for trained human resources in various social, educational, scientific, technical and professional organizations so as to channel human energy towards sustainable economic and social development. \n
+ \nIn order to make a positive difference to education and employment, Shri Subhash Chandra, Chairman, Essel Group of Industries and Zee Telefilms had brought together in 1995 a group of committed anthropologists, sociologists, economists and development communications professionals to set up TALEEM Research Foundation in Ahmedabad. One of the mandates of Taleem Research Foundation was to set up the Himgiri Zee University. \n
+       \nBased on the motto `Vasudhaiva Kutumbakam’ (World as Family), Himgiri Zee University has been established for the vocationalisation of higher education which is national in character and transnational in jurisdiction. The University is characterized by its resolve not to discriminate on grounds of caste, creed, residence, community, gender and religion. HZU has been established Under Uttarakhand ( Amendment) Act No.- 3 of 2011, Recognised by UGC Under Section 2(f) of ( 1956 Act)</string>
+    <string name="share">share</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:id="@+id/collegeImage"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:textSize="@dimen/text_size0"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:fontFamily="serif"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textSize="17dp"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:textColor="@color/black"
+                android:text="Green College Campus" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textSize="17dp"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:textColor="@color/black"
+                android:text="Neat and Clean Class Rooms" />
+
+            </LinearLayout>
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textSize="17dp"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:textColor="@color/black"
+                android:text="Library" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textSize="17dp"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:textColor="@color/black"
+                android:text="Lab and WorkShop" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BFBEBE"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Schools"
+            android:layout_marginTop="30dp"
+            android:textSize="@dimen/title_size"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            />
+
+     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Himgiri Zee University offers degree, diploma, and certificate programmes at UG , PG and Ph.D. levels. Students can choose from a wide array of programs in our university."
+            android:layout_margin="8dp"
+            android:textSize="@dimen/text_size01"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPages"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_margin="10dp"
+            android:clipToPadding="false"
+            android:foregroundGravity="center"
+            android:overScrollMode="never"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="1dp"
+            android:background="#EF0000"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/darkColor"
+            android:padding="@dimen/text_margin"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Supported by"
+                android:layout_marginTop="15dp"
+                android:textSize="@dimen/title_size"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textColor="@color/white"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:src="@drawable/hzuzee"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Details"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/title_size"
+                android:textColor="@color/white"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P.O. - Sherpur, Chakrata Road Dehradun,Uttarakhand"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size1"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pin - 248197 (Uttarakhand) INDIA"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size1"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: info@hzu.edu.in"
+                android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size1"
+                android:textColor="#3579EB"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mob: +91 8171819966"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size1"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toll Free : 18001804181"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size1"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <ImageView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/hzulocation"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitStart"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

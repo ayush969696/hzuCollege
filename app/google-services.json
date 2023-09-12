@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "618726205721",
+    "firebase_url": "https://hzu-app-e1af9-default-rtdb.firebaseio.com",
+    "project_id": "hzu-app-e1af9",
+    "storage_bucket": "hzu-app-e1af9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618726205721:android:723faddfc5461d2b3c7d88",
+        "android_client_info": {
+          "package_name": "com.example.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618726205721-dhcn7th39nplovpm0rnbsfbu683k7jjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwVAf8rcru1WBa-8NCwCDdNJdpNOxBgfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618726205721-dhcn7th39nplovpm0rnbsfbu683k7jjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618726205721:android:def327a1e3e122d13c7d88",
+        "android_client_info": {
+          "package_name": "com.myandayush.college"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618726205721-dhcn7th39nplovpm0rnbsfbu683k7jjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwVAf8rcru1WBa-8NCwCDdNJdpNOxBgfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618726205721-dhcn7th39nplovpm0rnbsfbu683k7jjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
